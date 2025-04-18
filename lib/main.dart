@@ -12,13 +12,14 @@ class TourismApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flood Prediction Platform',
+      title: 'BeNomad',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         brightness: Brightness.dark,
       ),
       home: const TouristApp(),
     );
+    
   }
 
 }
